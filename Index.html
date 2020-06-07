@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ /* Style the body */
+body{
+     background-color: black;
+     font-family: 'Prompt', sans-serif;
+     margin: 0px 0px 0px 0px;
+   
+        }
+
+
+span{
+     color: red;
+     text-transform: uppercase;
+     font-size: 24px;
+     font-weight:300;
+      padding: 0 0 0 120px;
+        }
+
+    .watch {
+             padding: 20px 60px 20px 60px;
+             margin: 120px;
+             background-color: red; 
+             border: none;
+             color: white;
+             font-size: 18px;
+             text-transform: uppercase;
+            }
+
+h1{
+       font-size: 66px;
+       padding: 0 0 0 120px;
+       text-transform: uppercase;
+       color: white;
+       line-height:1.2;
+        }
+
+h3 {  
+      font-size: 47px;
+      text-align: left;
+      line-height: 1.3;
+      text-transform: uppercase;  
+      }
+
+p{
+    color: white;
+}
+
+
+h4{
+     color: white;
+     font-size: 35px;
+}
+
+.text2{ 
+        font-size: 18px;
+        font-weight: 300;
+      text-align: left;
+      line-height: 1.0;
+      text-transform: lowercase; 
+      margin: 60px 0px 0px 0px;
+            }
+
+
+
+    a     {   
+     color: red;
+     text-decoration: undeline; 
+     font-weight: 300;
+     font-size: 18px;  
+         }
+
+    .author   {
+   font-weight: 200;
+      text-transform: uppercase;
+      color: grey;
+      font-size: 16px;
+      line-height: 1.6;
+      flaot: left;
+     }
+
+.photographer   {
+   font-weight: 200;
+      text-transform: uppercase;
+      color: black;
+      font-size: 16px;
+      line-height: 1.6;
+      flaot: left;
+     }
+
+
+.sign {
+             padding: 20px 100px 20px 100px;
+             margin: 120px;
+             background-color: red; 
+             border: none;
+             color: white;
+             font-size: 18px;
+             text-transform: uppercase;
+            }
+
+.caption{   
+             font-size: 19px;
+             font-weight: 200;
+             text-align: center; 
+                  }
+
+.founder-text{
+               font-size: 35px;
+               font-weight: 600; 
+               text-transform: lowercase; 
+               line-height:1;
+               text-align: center;  
+                    
+}
+
+.founder-img{
+               border-radius: 50%;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right{
+      float: right;
+}
+
+
+
+firstimg {
+  border-radius: 50%;
+  border: 3px solid yellow; 
+ }
+
+
+.hero-image {
+  background: url(https://images.unsplash.com/photo-1491555103944-7c647fd857e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center; 
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  margin: 35px 0px 0px 0px;
+  
+        }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.number{
+        font-size: 90px;
+        font-weight: 700;
+        padding: 150px 0px 0px 0px;
+        line-height: 1.5;
+        
+        
+  
+}
+
+.flex-item {
+ 
+  padding: 5px;
+  width: 450px;
+  height: 600px;
+  margin-top: 10px;
+  line-height: 1.3px;
+  color: white;
+  font-weight: bold;
+    }
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 20px 8px;
+  text-decoration: none;
+  text-align: center;
+  margin:20px;
+  font-weight: 200;
+  font-size: 15px;
+  
+}
+
+/* Style the navigation bar links */
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+.flex-item2 {
+
+  padding: 0px 60px;
+  width: 200px;
+  height: 700px;
+  margin-top: 10px;
+  line-height: 1.3;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.flex-item3 {
+ 
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 2;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: left;
+}
+
+.navigation {
+  
+
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 1.8;
+  color: grey;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: left;
+  
+}
+
+</style>
+</head>
+<body>
+
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Gallery</a>
+  <a href="#">Services</a>
+  <a href="#">Contact Us</a>
+  
+  <div class="topnav-right">
+
+      <a class="sign" href="#about">Contact Now</a>
+</div>
+
+
+  </div>
+<!-- Header -->
+<div class="hero-image">
+<div class="text">  
+  <span>—Creative Photography</span>
+  <h1>Photography<br>For the 
+  soul<br>Come on over</h1>
+  
+  <button class="watch">Watch Portfolio</button>  
+</div>
+</div>
+
+
+<ul class="flex-container">
+  <li class="flex-item">
+  <h3>How we make<br>user experiences</h3>
+    
+    <a href>hire@colorlib.com</a>
+  
+  </li>
+  <li class="flex-item">
+    <h3 class="text2">You can't use up creativity, the more you<br> have the more you use in your significant<br> mind.</h3>
+    <p class="author">salvadore Rushby,<br> Digital Artist<p>
+   
+     
+    
+    <span class="number">05<span> <p>years of digital Experience</p>
+  </li>
+  
+</ul>
+
+
+ <ul class="flex-container">
+  <li class="flex-item2">1
+   <img src="https://images.unsplash.com/photo-1522111608460-19e7331e00fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style="width:450px; height:700px;" ></img>
+   </li>
+  <li class="flex-item2">2
+  <img src="https://images.unsplash.com/photo-1528459639788-428ce548b1fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=618&q=80;"style="width:450px; height:700px;" ></img></li>
+  <li class="flex-item2">3
+<img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style="width:450px; height:700px;" ></img>
+</li>
+  
+</ul>
+                              
+      
+<ul class="flex-container">
+  <li class="flex-item2">
+    <img src="https://images.unsplash.com/photo-1587502537104-aac10f5fb6f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" style="width:450px; height:700px;"></img>
+   </li>
+  <li class="flex-item2">
+<img src="https://images.unsplash.com/flagged/photo-1551592398-c320012bc1c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style="width:450px; height:700px;"></img>
+</li>
+  <li class="flex-item2">
+    <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" style="width:450px; height:700px;"></img>
+    
+</li>
+  
+</ul>
+                              
+                              
+                 
+
+
+
+
+<!-- Single Testimonial -->
+                        <div class="single-testimonial text-center">
+                            <!-- Testimonial Content -->
+                            <div class="caption">
+                                <div class="testimonial-top-cap">
+                                    
+       
+                                  <h4> Why choose us</h4>                                 <p>We are committed to helping clients reach their goals. It takes teamwork, and a solid commitment to good<br> communication, excellence, and industry best practices to serve a company in an excellent manner.<br>We bring our diverse background of advertising and branding. </p>
+                                </div>
+                       
+                              <!-- founder -->
+                                <div class="testimonial-founder d-flex align-items-center justify-content-center">
+                                    <div class="founder-img">
+                                        <img src="https://images.unsplash.com/photo-1545594262-ded8a9096085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" class="founder-img" style= "width: 100px; height:120px" alt="executive man">
+                                    </div>
+                                    <div class="founder-text">
+                                        <span class="founder-text";>Jessya Inn</span>
+                                        <p class="photographer">Head Photographer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<ul class="flex-container">
+  <li class="flex-item3">Grabbing the consumers attention isnt enough. You have to keep that attention at least for a. </li>
+  <p class="navigation">
+  Navigation<br>
+  Home<br>
+  Events<br>
+  Testimonials<br>
+  Categories<br>
+  Contacts<br>
+  </p>
+  
+  <p class="navigation">Useful    Links<br>
+  Registration<br> 
+  Login<br>
+   Policy<br>
+   Terms & Conditions 
+  </p>
+  
+  
+  
+  <p class="flex-item3">Instagram Feed</p>
+      </ul>
+         
+</body>
